@@ -74,6 +74,7 @@ void popBack(vector *v) {
         fprintf(stderr, "Vector empty");
         exit(1);
     }
+
     v->size -= 1;
 }
 

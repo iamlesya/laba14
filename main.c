@@ -54,7 +54,6 @@ void test_atVector_requestToLastElement(){
 void test_back_oneElementInVector(){
     vector v = createVector(0);
     pushBack(&v, 5);
-
     int* index = atVector(&v, 0);
     assert(*index == 5);
 }
@@ -62,7 +61,6 @@ void test_back_oneElementInVector(){
 void test_front_oneElementInVector(){
     vector v = createVector(1);
     pushBack(&v, 5);
-
     int* pFront = front(&v);
     assert(*pFront == 5);
 }
